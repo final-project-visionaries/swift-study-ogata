@@ -14,7 +14,7 @@
 		CE12E3432B2FBECE00A214EE /* resnet50Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E3422B2FBECE00A214EE /* resnet50Tests.swift */; };
 		CE12E34D2B2FBECE00A214EE /* resnet50UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E34C2B2FBECE00A214EE /* resnet50UITests.swift */; };
 		CE12E34F2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E34E2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift */; };
-		CEC729DD2B2FCAFA006A92D5 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */; };
+		CEC729DF2B2FD1F4006A92D5 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEC729DE2B2FD1F4006A92D5 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		CE12E3482B2FBECE00A214EE /* resnet50UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resnet50UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE12E34C2B2FBECE00A214EE /* resnet50UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50UITests.swift; sourceTree = "<group>"; };
 		CE12E34E2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../../../../../Desktop/Resnet50.mlmodel; sourceTree = "<group>"; };
+		CEC729DE2B2FD1F4006A92D5 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../../../../../Desktop/swift_coreML/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				CE12E3312B2FBECD00A214EE /* resnet50App.swift */,
 				CE12E3332B2FBECD00A214EE /* ContentView.swift */,
-				CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */,
+				CEC729DE2B2FD1F4006A92D5 /* Resnet50.mlmodel */,
 				CE12E3352B2FBECE00A214EE /* Assets.xcassets */,
 				CE12E3372B2FBECE00A214EE /* Preview Content */,
 			);
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE12E3342B2FBECD00A214EE /* ContentView.swift in Sources */,
-				CEC729DD2B2FCAFA006A92D5 /* Resnet50.mlmodel in Sources */,
+				CEC729DF2B2FD1F4006A92D5 /* Resnet50.mlmodel in Sources */,
 				CE12E3322B2FBECD00A214EE /* resnet50App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
