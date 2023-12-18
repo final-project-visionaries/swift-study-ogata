@@ -7,69 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE12E2BC2B2F252000A214EE /* todoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2BB2B2F252000A214EE /* todoAppApp.swift */; };
-		CE12E2BE2B2F252000A214EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2BD2B2F252000A214EE /* ContentView.swift */; };
-		CE12E2C02B2F252100A214EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE12E2BF2B2F252100A214EE /* Assets.xcassets */; };
-		CE12E2C32B2F252100A214EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE12E2C22B2F252100A214EE /* Preview Assets.xcassets */; };
-		CE12E2CD2B2F252100A214EE /* todoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2CC2B2F252100A214EE /* todoAppTests.swift */; };
-		CE12E2D72B2F252100A214EE /* todoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2D62B2F252100A214EE /* todoAppUITests.swift */; };
-		CE12E2D92B2F252100A214EE /* todoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2D82B2F252100A214EE /* todoAppUITestsLaunchTests.swift */; };
-		CE12E2E62B2F279400A214EE /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2E52B2F279400A214EE /* ListRow.swift */; };
-		CE12E2E82B2F2B9D00A214EE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2E72B2F2B9D00A214EE /* UserData.swift */; };
-		CE12E2EA2B2F2C3B00A214EE /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2E92B2F2C3B00A214EE /* UserTask.swift */; };
-		CE12E2EE2B2F314C00A214EE /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E2ED2B2F314C00A214EE /* Draft.swift */; };
+		CE12E3322B2FBECD00A214EE /* resnet50App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E3312B2FBECD00A214EE /* resnet50App.swift */; };
+		CE12E3342B2FBECD00A214EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E3332B2FBECD00A214EE /* ContentView.swift */; };
+		CE12E3362B2FBECE00A214EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE12E3352B2FBECE00A214EE /* Assets.xcassets */; };
+		CE12E3392B2FBECE00A214EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE12E3382B2FBECE00A214EE /* Preview Assets.xcassets */; };
+		CE12E3432B2FBECE00A214EE /* resnet50Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E3422B2FBECE00A214EE /* resnet50Tests.swift */; };
+		CE12E34D2B2FBECE00A214EE /* resnet50UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E34C2B2FBECE00A214EE /* resnet50UITests.swift */; };
+		CE12E34F2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E34E2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift */; };
+		CEC729DD2B2FCAFA006A92D5 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE12E2C92B2F252100A214EE /* PBXContainerItemProxy */ = {
+		CE12E33F2B2FBECE00A214EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE12E2B02B2F252000A214EE /* Project object */;
+			containerPortal = CE12E3262B2FBECD00A214EE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE12E2B72B2F252000A214EE;
-			remoteInfo = todoApp;
+			remoteGlobalIDString = CE12E32D2B2FBECD00A214EE;
+			remoteInfo = resnet50;
 		};
-		CE12E2D32B2F252100A214EE /* PBXContainerItemProxy */ = {
+		CE12E3492B2FBECE00A214EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE12E2B02B2F252000A214EE /* Project object */;
+			containerPortal = CE12E3262B2FBECD00A214EE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE12E2B72B2F252000A214EE;
-			remoteInfo = todoApp;
+			remoteGlobalIDString = CE12E32D2B2FBECD00A214EE;
+			remoteInfo = resnet50;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE12E2B82B2F252000A214EE /* todoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE12E2BB2B2F252000A214EE /* todoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppApp.swift; sourceTree = "<group>"; };
-		CE12E2BD2B2F252000A214EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CE12E2BF2B2F252100A214EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE12E2C22B2F252100A214EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE12E2C82B2F252100A214EE /* todoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE12E2CC2B2F252100A214EE /* todoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppTests.swift; sourceTree = "<group>"; };
-		CE12E2D22B2F252100A214EE /* todoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE12E2D62B2F252100A214EE /* todoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITests.swift; sourceTree = "<group>"; };
-		CE12E2D82B2F252100A214EE /* todoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CE12E2E52B2F279400A214EE /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
-		CE12E2E72B2F2B9D00A214EE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		CE12E2E92B2F2C3B00A214EE /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
-		CE12E2ED2B2F314C00A214EE /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
+		CE12E32E2B2FBECD00A214EE /* resnet50.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resnet50.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE12E3312B2FBECD00A214EE /* resnet50App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50App.swift; sourceTree = "<group>"; };
+		CE12E3332B2FBECD00A214EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE12E3352B2FBECE00A214EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE12E3382B2FBECE00A214EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE12E33E2B2FBECE00A214EE /* resnet50Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resnet50Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE12E3422B2FBECE00A214EE /* resnet50Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50Tests.swift; sourceTree = "<group>"; };
+		CE12E3482B2FBECE00A214EE /* resnet50UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resnet50UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE12E34C2B2FBECE00A214EE /* resnet50UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50UITests.swift; sourceTree = "<group>"; };
+		CE12E34E2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resnet50UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../../../../../Desktop/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE12E2B52B2F252000A214EE /* Frameworks */ = {
+		CE12E32B2B2FBECD00A214EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2C52B2F252100A214EE /* Frameworks */ = {
+		CE12E33B2B2FBECE00A214EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2CF2B2F252100A214EE /* Frameworks */ = {
+		CE12E3452B2FBECE00A214EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,162 +73,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE12E2AF2B2F252000A214EE = {
+		CE12E3252B2FBECD00A214EE = {
 			isa = PBXGroup;
 			children = (
-				CE12E2BA2B2F252000A214EE /* todoApp */,
-				CE12E2CB2B2F252100A214EE /* todoAppTests */,
-				CE12E2D52B2F252100A214EE /* todoAppUITests */,
-				CE12E2B92B2F252000A214EE /* Products */,
+				CE12E3302B2FBECD00A214EE /* resnet50 */,
+				CE12E3412B2FBECE00A214EE /* resnet50Tests */,
+				CE12E34B2B2FBECE00A214EE /* resnet50UITests */,
+				CE12E32F2B2FBECD00A214EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE12E2B92B2F252000A214EE /* Products */ = {
+		CE12E32F2B2FBECD00A214EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE12E2B82B2F252000A214EE /* todoApp.app */,
-				CE12E2C82B2F252100A214EE /* todoAppTests.xctest */,
-				CE12E2D22B2F252100A214EE /* todoAppUITests.xctest */,
+				CE12E32E2B2FBECD00A214EE /* resnet50.app */,
+				CE12E33E2B2FBECE00A214EE /* resnet50Tests.xctest */,
+				CE12E3482B2FBECE00A214EE /* resnet50UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE12E2BA2B2F252000A214EE /* todoApp */ = {
+		CE12E3302B2FBECD00A214EE /* resnet50 */ = {
 			isa = PBXGroup;
 			children = (
-				CE12E2EC2B2F2CB300A214EE /* Custom */,
-				CE12E2EB2B2F2C7B00A214EE /* User */,
-				CE12E2BB2B2F252000A214EE /* todoAppApp.swift */,
-				CE12E2BD2B2F252000A214EE /* ContentView.swift */,
-				CE12E2ED2B2F314C00A214EE /* Draft.swift */,
-				CE12E2BF2B2F252100A214EE /* Assets.xcassets */,
-				CE12E2C12B2F252100A214EE /* Preview Content */,
+				CE12E3312B2FBECD00A214EE /* resnet50App.swift */,
+				CE12E3332B2FBECD00A214EE /* ContentView.swift */,
+				CEC729DC2B2FCAFA006A92D5 /* Resnet50.mlmodel */,
+				CE12E3352B2FBECE00A214EE /* Assets.xcassets */,
+				CE12E3372B2FBECE00A214EE /* Preview Content */,
 			);
-			path = todoApp;
+			path = resnet50;
 			sourceTree = "<group>";
 		};
-		CE12E2C12B2F252100A214EE /* Preview Content */ = {
+		CE12E3372B2FBECE00A214EE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CE12E2C22B2F252100A214EE /* Preview Assets.xcassets */,
+				CE12E3382B2FBECE00A214EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CE12E2CB2B2F252100A214EE /* todoAppTests */ = {
+		CE12E3412B2FBECE00A214EE /* resnet50Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CE12E2CC2B2F252100A214EE /* todoAppTests.swift */,
+				CE12E3422B2FBECE00A214EE /* resnet50Tests.swift */,
 			);
-			path = todoAppTests;
+			path = resnet50Tests;
 			sourceTree = "<group>";
 		};
-		CE12E2D52B2F252100A214EE /* todoAppUITests */ = {
+		CE12E34B2B2FBECE00A214EE /* resnet50UITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE12E2D62B2F252100A214EE /* todoAppUITests.swift */,
-				CE12E2D82B2F252100A214EE /* todoAppUITestsLaunchTests.swift */,
+				CE12E34C2B2FBECE00A214EE /* resnet50UITests.swift */,
+				CE12E34E2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift */,
 			);
-			path = todoAppUITests;
-			sourceTree = "<group>";
-		};
-		CE12E2EB2B2F2C7B00A214EE /* User */ = {
-			isa = PBXGroup;
-			children = (
-				CE12E2E72B2F2B9D00A214EE /* UserData.swift */,
-				CE12E2E92B2F2C3B00A214EE /* UserTask.swift */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		CE12E2EC2B2F2CB300A214EE /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				CE12E2E52B2F279400A214EE /* ListRow.swift */,
-			);
-			path = Custom;
+			path = resnet50UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE12E2B72B2F252000A214EE /* todoApp */ = {
+		CE12E32D2B2FBECD00A214EE /* resnet50 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE12E2DC2B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoApp" */;
+			buildConfigurationList = CE12E3522B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50" */;
 			buildPhases = (
-				CE12E2B42B2F252000A214EE /* Sources */,
-				CE12E2B52B2F252000A214EE /* Frameworks */,
-				CE12E2B62B2F252000A214EE /* Resources */,
+				CE12E32A2B2FBECD00A214EE /* Sources */,
+				CE12E32B2B2FBECD00A214EE /* Frameworks */,
+				CE12E32C2B2FBECD00A214EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = todoApp;
-			productName = todoApp;
-			productReference = CE12E2B82B2F252000A214EE /* todoApp.app */;
+			name = resnet50;
+			productName = resnet50;
+			productReference = CE12E32E2B2FBECD00A214EE /* resnet50.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE12E2C72B2F252100A214EE /* todoAppTests */ = {
+		CE12E33D2B2FBECE00A214EE /* resnet50Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE12E2DF2B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoAppTests" */;
+			buildConfigurationList = CE12E3552B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50Tests" */;
 			buildPhases = (
-				CE12E2C42B2F252100A214EE /* Sources */,
-				CE12E2C52B2F252100A214EE /* Frameworks */,
-				CE12E2C62B2F252100A214EE /* Resources */,
+				CE12E33A2B2FBECE00A214EE /* Sources */,
+				CE12E33B2B2FBECE00A214EE /* Frameworks */,
+				CE12E33C2B2FBECE00A214EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE12E2CA2B2F252100A214EE /* PBXTargetDependency */,
+				CE12E3402B2FBECE00A214EE /* PBXTargetDependency */,
 			);
-			name = todoAppTests;
-			productName = todoAppTests;
-			productReference = CE12E2C82B2F252100A214EE /* todoAppTests.xctest */;
+			name = resnet50Tests;
+			productName = resnet50Tests;
+			productReference = CE12E33E2B2FBECE00A214EE /* resnet50Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE12E2D12B2F252100A214EE /* todoAppUITests */ = {
+		CE12E3472B2FBECE00A214EE /* resnet50UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE12E2E22B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoAppUITests" */;
+			buildConfigurationList = CE12E3582B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50UITests" */;
 			buildPhases = (
-				CE12E2CE2B2F252100A214EE /* Sources */,
-				CE12E2CF2B2F252100A214EE /* Frameworks */,
-				CE12E2D02B2F252100A214EE /* Resources */,
+				CE12E3442B2FBECE00A214EE /* Sources */,
+				CE12E3452B2FBECE00A214EE /* Frameworks */,
+				CE12E3462B2FBECE00A214EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE12E2D42B2F252100A214EE /* PBXTargetDependency */,
+				CE12E34A2B2FBECE00A214EE /* PBXTargetDependency */,
 			);
-			name = todoAppUITests;
-			productName = todoAppUITests;
-			productReference = CE12E2D22B2F252100A214EE /* todoAppUITests.xctest */;
+			name = resnet50UITests;
+			productName = resnet50UITests;
+			productReference = CE12E3482B2FBECE00A214EE /* resnet50UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE12E2B02B2F252000A214EE /* Project object */ = {
+		CE12E3262B2FBECD00A214EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					CE12E2B72B2F252000A214EE = {
+					CE12E32D2B2FBECD00A214EE = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					CE12E2C72B2F252100A214EE = {
+					CE12E33D2B2FBECE00A214EE = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = CE12E2B72B2F252000A214EE;
+						TestTargetID = CE12E32D2B2FBECD00A214EE;
 					};
-					CE12E2D12B2F252100A214EE = {
+					CE12E3472B2FBECE00A214EE = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = CE12E2B72B2F252000A214EE;
+						TestTargetID = CE12E32D2B2FBECD00A214EE;
 					};
 				};
 			};
-			buildConfigurationList = CE12E2B32B2F252000A214EE /* Build configuration list for PBXProject "todoApp" */;
+			buildConfigurationList = CE12E3292B2FBECD00A214EE /* Build configuration list for PBXProject "resnet50" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,36 +217,36 @@
 				en,
 				Base,
 			);
-			mainGroup = CE12E2AF2B2F252000A214EE;
-			productRefGroup = CE12E2B92B2F252000A214EE /* Products */;
+			mainGroup = CE12E3252B2FBECD00A214EE;
+			productRefGroup = CE12E32F2B2FBECD00A214EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE12E2B72B2F252000A214EE /* todoApp */,
-				CE12E2C72B2F252100A214EE /* todoAppTests */,
-				CE12E2D12B2F252100A214EE /* todoAppUITests */,
+				CE12E32D2B2FBECD00A214EE /* resnet50 */,
+				CE12E33D2B2FBECE00A214EE /* resnet50Tests */,
+				CE12E3472B2FBECE00A214EE /* resnet50UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE12E2B62B2F252000A214EE /* Resources */ = {
+		CE12E32C2B2FBECD00A214EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE12E2C32B2F252100A214EE /* Preview Assets.xcassets in Resources */,
-				CE12E2C02B2F252100A214EE /* Assets.xcassets in Resources */,
+				CE12E3392B2FBECE00A214EE /* Preview Assets.xcassets in Resources */,
+				CE12E3362B2FBECE00A214EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2C62B2F252100A214EE /* Resources */ = {
+		CE12E33C2B2FBECE00A214EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2D02B2F252100A214EE /* Resources */ = {
+		CE12E3462B2FBECE00A214EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,53 +256,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE12E2B42B2F252000A214EE /* Sources */ = {
+		CE12E32A2B2FBECD00A214EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE12E2EA2B2F2C3B00A214EE /* UserTask.swift in Sources */,
-				CE12E2BE2B2F252000A214EE /* ContentView.swift in Sources */,
-				CE12E2BC2B2F252000A214EE /* todoAppApp.swift in Sources */,
-				CE12E2EE2B2F314C00A214EE /* Draft.swift in Sources */,
-				CE12E2E82B2F2B9D00A214EE /* UserData.swift in Sources */,
-				CE12E2E62B2F279400A214EE /* ListRow.swift in Sources */,
+				CE12E3342B2FBECD00A214EE /* ContentView.swift in Sources */,
+				CEC729DD2B2FCAFA006A92D5 /* Resnet50.mlmodel in Sources */,
+				CE12E3322B2FBECD00A214EE /* resnet50App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2C42B2F252100A214EE /* Sources */ = {
+		CE12E33A2B2FBECE00A214EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE12E2CD2B2F252100A214EE /* todoAppTests.swift in Sources */,
+				CE12E3432B2FBECE00A214EE /* resnet50Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE12E2CE2B2F252100A214EE /* Sources */ = {
+		CE12E3442B2FBECE00A214EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE12E2D92B2F252100A214EE /* todoAppUITestsLaunchTests.swift in Sources */,
-				CE12E2D72B2F252100A214EE /* todoAppUITests.swift in Sources */,
+				CE12E34F2B2FBECE00A214EE /* resnet50UITestsLaunchTests.swift in Sources */,
+				CE12E34D2B2FBECE00A214EE /* resnet50UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE12E2CA2B2F252100A214EE /* PBXTargetDependency */ = {
+		CE12E3402B2FBECE00A214EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE12E2B72B2F252000A214EE /* todoApp */;
-			targetProxy = CE12E2C92B2F252100A214EE /* PBXContainerItemProxy */;
+			target = CE12E32D2B2FBECD00A214EE /* resnet50 */;
+			targetProxy = CE12E33F2B2FBECE00A214EE /* PBXContainerItemProxy */;
 		};
-		CE12E2D42B2F252100A214EE /* PBXTargetDependency */ = {
+		CE12E34A2B2FBECE00A214EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE12E2B72B2F252000A214EE /* todoApp */;
-			targetProxy = CE12E2D32B2F252100A214EE /* PBXContainerItemProxy */;
+			target = CE12E32D2B2FBECD00A214EE /* resnet50 */;
+			targetProxy = CE12E3492B2FBECE00A214EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CE12E2DA2B2F252100A214EE /* Debug */ = {
+		CE12E3502B2FBECE00A214EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		CE12E2DB2B2F252100A214EE /* Release */ = {
+		CE12E3512B2FBECE00A214EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,15 +418,14 @@
 			};
 			name = Release;
 		};
-		CE12E2DD2B2F252100A214EE /* Debug */ = {
+		CE12E3532B2FBECE00A214EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"todoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = XVZ2LPCAL2;
+				DEVELOPMENT_ASSET_PATHS = "\"resnet50/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -467,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Kazuyoshi-Ogata";
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,15 +446,14 @@
 			};
 			name = Debug;
 		};
-		CE12E2DE2B2F252100A214EE /* Release */ = {
+		CE12E3542B2FBECE00A214EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"todoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = XVZ2LPCAL2;
+				DEVELOPMENT_ASSET_PATHS = "\"resnet50/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -496,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Kazuyoshi-Ogata";
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -504,7 +474,7 @@
 			};
 			name = Release;
 		};
-		CE12E2E02B2F252100A214EE /* Debug */ = {
+		CE12E3562B2FBECE00A214EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,16 +484,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.todoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resnet50.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resnet50";
 			};
 			name = Debug;
 		};
-		CE12E2E12B2F252100A214EE /* Release */ = {
+		CE12E3572B2FBECE00A214EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.todoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resnet50.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resnet50";
 			};
 			name = Release;
 		};
-		CE12E2E32B2F252100A214EE /* Debug */ = {
+		CE12E3592B2FBECE00A214EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,16 +520,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.todoAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = todoApp;
+				TEST_TARGET_NAME = resnet50;
 			};
 			name = Debug;
 		};
-		CE12E2E42B2F252100A214EE /* Release */ = {
+		CE12E35A2B2FBECE00A214EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,55 +537,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.todoAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.resnet50UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = todoApp;
+				TEST_TARGET_NAME = resnet50;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE12E2B32B2F252000A214EE /* Build configuration list for PBXProject "todoApp" */ = {
+		CE12E3292B2FBECD00A214EE /* Build configuration list for PBXProject "resnet50" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE12E2DA2B2F252100A214EE /* Debug */,
-				CE12E2DB2B2F252100A214EE /* Release */,
+				CE12E3502B2FBECE00A214EE /* Debug */,
+				CE12E3512B2FBECE00A214EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE12E2DC2B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoApp" */ = {
+		CE12E3522B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE12E2DD2B2F252100A214EE /* Debug */,
-				CE12E2DE2B2F252100A214EE /* Release */,
+				CE12E3532B2FBECE00A214EE /* Debug */,
+				CE12E3542B2FBECE00A214EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE12E2DF2B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoAppTests" */ = {
+		CE12E3552B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE12E2E02B2F252100A214EE /* Debug */,
-				CE12E2E12B2F252100A214EE /* Release */,
+				CE12E3562B2FBECE00A214EE /* Debug */,
+				CE12E3572B2FBECE00A214EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE12E2E22B2F252100A214EE /* Build configuration list for PBXNativeTarget "todoAppUITests" */ = {
+		CE12E3582B2FBECE00A214EE /* Build configuration list for PBXNativeTarget "resnet50UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE12E2E32B2F252100A214EE /* Debug */,
-				CE12E2E42B2F252100A214EE /* Release */,
+				CE12E3592B2FBECE00A214EE /* Debug */,
+				CE12E35A2B2FBECE00A214EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE12E2B02B2F252000A214EE /* Project object */;
+	rootObject = CE12E3262B2FBECD00A214EE /* Project object */;
 }
